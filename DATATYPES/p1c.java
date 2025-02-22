@@ -1,0 +1,10 @@
+class Char{
+
+	public static void main(String[]args){
+	
+		char ch;
+		ch ='97';  //error: unclosed character literal & not a statement
+		System.out.println("char="+ch);
+		System.out.println("char="+ch+1);
+	}
+}
